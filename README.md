@@ -36,4 +36,4 @@ Ainda há pontos a serem aprimorados, mas já cumpre seu objetivo inicial e serv
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/lucasantosilv/nome-do-repo.git
+git clone https://github.com/lucasantosilv/sistema-biblioteca-python.git
