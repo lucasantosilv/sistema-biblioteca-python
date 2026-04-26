@@ -18,7 +18,7 @@ class Biblioteca:
 
   def buscar_livro_por_titulo(self, titulo_buscado):
     for livro in self.livros:
-      if livro.titulo.lower() == titulo_buscado.lower(): # Busca case-insensitive
+      if livro.titulo.lower() == titulo_buscado.lower():
         return livro
     return None
 
@@ -41,15 +41,14 @@ biblioteca.adicionar_livro(livro4)
 
 biblioteca.adicionar_livro(livro5)
 
-# Mensagem de boas vindas
+#Mensagem de boas vindas
 
 print("Olá meu nome é Lucas, eu sou bibliotecario hoje.")
 
-# Mostrar livros disponiveis
+#Buscar livros
 
 biblioteca.listar_livros()
 
-# O código foi modificado para permitir que o usuário digite o título do livro
 escolha_usuario = input("Essas são as nossas opções, qual você quer? Digite o título do livro: ")
 
 livro_selecionado = biblioteca.buscar_livro_por_titulo(escolha_usuario)
